@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Power 4</string>
+    <string name="action_settings">Settings </string>
+    <string name="action_analytics">Statistics </string>
+    <string name="action_ok">Ok</string>
+    <string name="game_over">Game end\nClick to retry !!</string>
+    <string name="equal_game">Draw\nClick on try again to play !!</string>
+    <string name="no_more_space">No more place\n 빈칸이 없어요!</string>
+    <string name="you_win">Win!!</string>
+    <string name="you_lose">You lose</string>
+    <string name="snackbar_yes">YES</string>
+    <string name="snackbar_replay">Try again</string>
+    <string name="difficulty">Difficulty : </string>
+    <string name="level_change_at_next_game">The level will change at the next game</string>
+    <string name="color_piece_user_change_at_next_game">The color of your coin will change at the next game</string>
+    <string name="first_user_change_at_next_game">The first player will change at the next game</string>
+    <string name="level_easy">Easy</string>
+    <string name="level_medium">Normal</string>
+    <string name="level_hard">Hard</string>
+    <string name="do_you_want_replay">Retry ?</string>
+    <string name="touch_play_for_begin">click on the button to try again</string>
+    <string name="who_begin">Who start :</string>
+    <string name="user_begin">Human</string>
+    <string name="computer_begin">AI</string>
+    <string name="piece_color">Which color for your coin :</string>
+    <string name="piece_red">Red</string>
+    <string name="piece_yellow">Yellow</string>
+    <string name="game_already_begin">The game already begin</string>
+    <string name="label_equal_game">Draws :</string>
+    <string name="label_win_game">Wins :</string>
+    <string name="label_loose_game">Loses :</string>
+</resources>
