@@ -21,15 +21,15 @@ import java.lang.Override;
 public class MainActivity_ViewBinding implements Unbinder {
   private MainActivity target;
 
-  private View view2131230798;
+  private View view2131296334;
 
-  private View view2131230791;
+  private View view2131296327;
 
-  private View view2131230755;
+  private View view2131296291;
 
-  private View view2131230756;
+  private View view2131296292;
 
-  private View view2131230757;
+  private View view2131296293;
 
   @UiThread
   public MainActivity_ViewBinding(MainActivity target) {
@@ -45,7 +45,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.toolbarTop = Utils.findRequiredViewAsType(source, R.id.toolbar_top, "field 'toolbarTop'", Toolbar.class);
     view = Utils.findRequiredView(source, R.id.gridView, "field 'gridView' and method 'OnItemClick'");
     target.gridView = Utils.castView(view, R.id.gridView, "field 'gridView'", GridView.class);
-    view2131230798 = view;
+    view2131296334 = view;
     ((AdapterView<?>) view).setOnItemClickListener(new AdapterView.OnItemClickListener() {
       @Override
       public void onItemClick(AdapterView<?> p0, View p1, int p2, long p3) {
@@ -54,7 +54,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.fab_play, "field 'fabPlay' and method 'onClick'");
     target.fabPlay = Utils.castView(view, R.id.fab_play, "field 'fabPlay'", FloatingActionButton.class);
-    view2131230791 = view;
+    view2131296327 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -64,7 +64,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.view = Utils.findRequiredViewAsType(source, R.id.view, "field 'view'", CoordinatorLayout.class);
     view = Utils.findRequiredView(source, R.id.btn_info, "field 'btnInfo' and method 'onClick'");
     target.btnInfo = Utils.castView(view, R.id.btn_info, "field 'btnInfo'", ImageButton.class);
-    view2131230755 = view;
+    view2131296291 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -73,7 +73,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.btn_params, "field 'btnParams' and method 'onClick'");
     target.btnParams = Utils.castView(view, R.id.btn_params, "field 'btnParams'", ImageButton.class);
-    view2131230756 = view;
+    view2131296292 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -83,7 +83,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.toolbarBottom = Utils.findRequiredViewAsType(source, R.id.toolbar_bottom, "field 'toolbarBottom'", Toolbar.class);
     view = Utils.findRequiredView(source, R.id.btn_replay, "field 'btnReplay' and method 'onClick'");
     target.btnReplay = Utils.castView(view, R.id.btn_replay, "field 'btnReplay'", FloatingActionButton.class);
-    view2131230757 = view;
+    view2131296293 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -109,15 +109,15 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.toolbarBottom = null;
     target.btnReplay = null;
 
-    ((AdapterView<?>) view2131230798).setOnItemClickListener(null);
-    view2131230798 = null;
-    view2131230791.setOnClickListener(null);
-    view2131230791 = null;
-    view2131230755.setOnClickListener(null);
-    view2131230755 = null;
-    view2131230756.setOnClickListener(null);
-    view2131230756 = null;
-    view2131230757.setOnClickListener(null);
-    view2131230757 = null;
+    ((AdapterView<?>) view2131296334).setOnItemClickListener(null);
+    view2131296334 = null;
+    view2131296327.setOnClickListener(null);
+    view2131296327 = null;
+    view2131296291.setOnClickListener(null);
+    view2131296291 = null;
+    view2131296292.setOnClickListener(null);
+    view2131296292 = null;
+    view2131296293.setOnClickListener(null);
+    view2131296293 = null;
   }
 }

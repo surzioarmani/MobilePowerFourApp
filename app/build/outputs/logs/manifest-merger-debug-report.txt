@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\sooa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\127b147decfe7608d832e63fb8832f5b\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\sooa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\aa1b882307f68c2e7f151ae86601e667\AndroidManifest.xml:17:1-31:12
 MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\sooa\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\202ab480001821183f21a880e4b83905\AndroidManifest.xml:2:1-7:12
@@ -19,25 +19,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\sooa\.gradl
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\sooa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\672dadef83f5f0ed18db1c4230d073db\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\sooa\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\e6324d584fc43e44792876e7ee22c173\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sooa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\98451fd8acaeb00a88d644384ffeaa8b\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:5:5-36:19
+ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:5:5-35:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\sooa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\127b147decfe7608d832e63fb8832f5b\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\sooa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\127b147decfe7608d832e63fb8832f5b\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\sooa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\aa1b882307f68c2e7f151ae86601e667\AndroidManifest.xml:25:5-29:19
@@ -73,17 +73,15 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sooa\.gradle\caches\
 	android:fullBackupContent
 		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:8:9-41
 	android:icon
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:7:9-41
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
 		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:11:9-40
-activity#fr.nantes.opensource.power4.activities.MainActivity
-ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:12:9-23:20
+activity#fr.nantes.opensource.power4.activities.GameActivity
+ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:13:9-22:20
 	android:screenOrientation
 		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:17:13-55
-	android:label
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:14:13-45
 	android:multiprocess
 		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:15:13-40
 	android:hardwareAccelerated
@@ -91,31 +89,33 @@ ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\A
 	android:theme
 		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:13:13-52
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:19:13-22:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:20:17-69
-	android:name
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:20:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:21:17-77
-	android:name
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:21:27-74
-activity#fr.nantes.opensource.power4.activities.GameActivity
-ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:24:9-35:16
-	android:screenOrientation
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:29:9-51
-	android:multiprocess
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:27:9-36
-	android:hardwareAccelerated
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:28:9-43
-	android:theme
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:30:9-52
-	android:name
-		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:25:9-48
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:13:19-58
 intent-filter#category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:31:9-34:25
+ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:19:13-21:29
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:20:27-74
+activity#fr.nantes.opensource.power4.activities.MainActivity
+ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:23:9-34:20
+	android:screenOrientation
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:28:13-55
+	android:label
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:25:13-45
+	android:multiprocess
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:26:13-40
+	android:hardwareAccelerated
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:27:13-47
+	android:theme
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:24:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml:31:25-66
 uses-sdk
 INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\sooa\AndroidStudioProjects\MobilePowerFourApp\app\src\main\AndroidManifest.xml

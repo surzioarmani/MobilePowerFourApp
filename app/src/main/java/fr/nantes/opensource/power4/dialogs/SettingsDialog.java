@@ -1,4 +1,4 @@
-package fr.nantes.opensource.poewer4.dialogs;
+package fr.nantes.opensource.power4.dialogs;
 
 import android.app.Activity;
 import android.os.Bundle;
