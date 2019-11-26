@@ -1,0 +1,123 @@
+// Generated code from Butter Knife. Do not modify!
+package fr.nantes.opensource.power4.activities;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.FloatingActionButton;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.GridView;
+import android.widget.ImageButton;
+import android.widget.ProgressBar;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import fr.nantes.opensource.power4.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class MainActivity_ViewBinding implements Unbinder {
+  private MainActivity target;
+
+  private View view2131230798;
+
+  private View view2131230791;
+
+  private View view2131230755;
+
+  private View view2131230756;
+
+  private View view2131230757;
+
+  @UiThread
+  public MainActivity_ViewBinding(MainActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public MainActivity_ViewBinding(final MainActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.toolbarProgressBar = Utils.findRequiredViewAsType(source, R.id.toolbar_progress_bar, "field 'toolbarProgressBar'", ProgressBar.class);
+    target.toolbarTop = Utils.findRequiredViewAsType(source, R.id.toolbar_top, "field 'toolbarTop'", Toolbar.class);
+    view = Utils.findRequiredView(source, R.id.gridView, "field 'gridView' and method 'OnItemClick'");
+    target.gridView = Utils.castView(view, R.id.gridView, "field 'gridView'", GridView.class);
+    view2131230798 = view;
+    ((AdapterView<?>) view).setOnItemClickListener(new AdapterView.OnItemClickListener() {
+      @Override
+      public void onItemClick(AdapterView<?> p0, View p1, int p2, long p3) {
+        target.OnItemClick(p2);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.fab_play, "field 'fabPlay' and method 'onClick'");
+    target.fabPlay = Utils.castView(view, R.id.fab_play, "field 'fabPlay'", FloatingActionButton.class);
+    view2131230791 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClick(p0);
+      }
+    });
+    target.view = Utils.findRequiredViewAsType(source, R.id.view, "field 'view'", CoordinatorLayout.class);
+    view = Utils.findRequiredView(source, R.id.btn_info, "field 'btnInfo' and method 'onClick'");
+    target.btnInfo = Utils.castView(view, R.id.btn_info, "field 'btnInfo'", ImageButton.class);
+    view2131230755 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClick(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.btn_params, "field 'btnParams' and method 'onClick'");
+    target.btnParams = Utils.castView(view, R.id.btn_params, "field 'btnParams'", ImageButton.class);
+    view2131230756 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClick(p0);
+      }
+    });
+    target.toolbarBottom = Utils.findRequiredViewAsType(source, R.id.toolbar_bottom, "field 'toolbarBottom'", Toolbar.class);
+    view = Utils.findRequiredView(source, R.id.btn_replay, "field 'btnReplay' and method 'onClick'");
+    target.btnReplay = Utils.castView(view, R.id.btn_replay, "field 'btnReplay'", FloatingActionButton.class);
+    view2131230757 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClick(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    MainActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.toolbarProgressBar = null;
+    target.toolbarTop = null;
+    target.gridView = null;
+    target.fabPlay = null;
+    target.view = null;
+    target.btnInfo = null;
+    target.btnParams = null;
+    target.toolbarBottom = null;
+    target.btnReplay = null;
+
+    ((AdapterView<?>) view2131230798).setOnItemClickListener(null);
+    view2131230798 = null;
+    view2131230791.setOnClickListener(null);
+    view2131230791 = null;
+    view2131230755.setOnClickListener(null);
+    view2131230755 = null;
+    view2131230756.setOnClickListener(null);
+    view2131230756 = null;
+    view2131230757.setOnClickListener(null);
+    view2131230757 = null;
+  }
+}
