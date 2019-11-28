@@ -18,13 +18,13 @@ import java.lang.Override;
 public class SettingsDialog_ViewBinding implements Unbinder {
   private SettingsDialog target;
 
-  private View view2131296375;
-
-  private View view2131296374;
-
   private View view2131296376;
 
-  private View view2131296452;
+  private View view2131296375;
+
+  private View view2131296377;
+
+  private View view2131296453;
 
   @UiThread
   public SettingsDialog_ViewBinding(final SettingsDialog target, View source) {
@@ -35,7 +35,7 @@ public class SettingsDialog_ViewBinding implements Unbinder {
     target.rsv = Utils.findRequiredViewAsType(source, R.id.rsv, "field 'rsv'", RangeSliderView.class);
     view = Utils.findRequiredView(source, R.id.radioButtonPlayerUser, "field 'radioButtonPlayerUser' and method 'onClick'");
     target.radioButtonPlayerUser = Utils.castView(view, R.id.radioButtonPlayerUser, "field 'radioButtonPlayerUser'", RadioButton.class);
-    view2131296375 = view;
+    view2131296376 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -44,7 +44,7 @@ public class SettingsDialog_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.radioButtonPlayerComputer, "field 'radioButtonPlayerComputer' and method 'onClick'");
     target.radioButtonPlayerComputer = Utils.castView(view, R.id.radioButtonPlayerComputer, "field 'radioButtonPlayerComputer'", RadioButton.class);
-    view2131296374 = view;
+    view2131296375 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -53,7 +53,7 @@ public class SettingsDialog_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.redPiece, "field 'redPiece' and method 'onClick'");
     target.redPiece = Utils.castView(view, R.id.redPiece, "field 'redPiece'", RadioButton.class);
-    view2131296376 = view;
+    view2131296377 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -62,7 +62,7 @@ public class SettingsDialog_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.yellowPiece, "field 'yellowPiece' and method 'onClick'");
     target.yellowPiece = Utils.castView(view, R.id.yellowPiece, "field 'yellowPiece'", RadioButton.class);
-    view2131296452 = view;
+    view2131296453 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -87,13 +87,13 @@ public class SettingsDialog_ViewBinding implements Unbinder {
     target.yellowPiece = null;
     target.viewForSnackBar = null;
 
-    view2131296375.setOnClickListener(null);
-    view2131296375 = null;
-    view2131296374.setOnClickListener(null);
-    view2131296374 = null;
     view2131296376.setOnClickListener(null);
     view2131296376 = null;
-    view2131296452.setOnClickListener(null);
-    view2131296452 = null;
+    view2131296375.setOnClickListener(null);
+    view2131296375 = null;
+    view2131296377.setOnClickListener(null);
+    view2131296377 = null;
+    view2131296453.setOnClickListener(null);
+    view2131296453 = null;
   }
 }

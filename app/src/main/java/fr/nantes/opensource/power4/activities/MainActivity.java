@@ -1,4 +1,5 @@
 package fr.nantes.opensource.power4.activities;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -45,7 +46,14 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.oneplayer).setOnClickListener(mClickListener);
     }
+    public void OnClickHandler (View view)
+    {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("make a 4 coin in a row!").setMessage("Question: 010-XXXX-XXXX");
+        AlertDialog alertDialog = builder.create();
 
+        alertDialog.show();
+    }
 
 
     Button.OnClickListener mClickListener = new View.OnClickListener() {

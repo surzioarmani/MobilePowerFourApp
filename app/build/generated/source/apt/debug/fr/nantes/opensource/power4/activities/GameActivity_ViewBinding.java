@@ -21,9 +21,9 @@ import java.lang.Override;
 public class GameActivity_ViewBinding implements Unbinder {
   private GameActivity target;
 
-  private View view2131296335;
+  private View view2131296336;
 
-  private View view2131296328;
+  private View view2131296329;
 
   private View view2131296292;
 
@@ -45,7 +45,7 @@ public class GameActivity_ViewBinding implements Unbinder {
     target.toolbarTop = Utils.findRequiredViewAsType(source, R.id.toolbar_top, "field 'toolbarTop'", Toolbar.class);
     view = Utils.findRequiredView(source, R.id.gridView, "field 'gridView' and method 'OnItemClick'");
     target.gridView = Utils.castView(view, R.id.gridView, "field 'gridView'", GridView.class);
-    view2131296335 = view;
+    view2131296336 = view;
     ((AdapterView<?>) view).setOnItemClickListener(new AdapterView.OnItemClickListener() {
       @Override
       public void onItemClick(AdapterView<?> p0, View p1, int p2, long p3) {
@@ -54,7 +54,7 @@ public class GameActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.fab_play, "field 'fabPlay' and method 'onClick'");
     target.fabPlay = Utils.castView(view, R.id.fab_play, "field 'fabPlay'", FloatingActionButton.class);
-    view2131296328 = view;
+    view2131296329 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -109,10 +109,10 @@ public class GameActivity_ViewBinding implements Unbinder {
     target.toolbarBottom = null;
     target.btnReplay = null;
 
-    ((AdapterView<?>) view2131296335).setOnItemClickListener(null);
-    view2131296335 = null;
-    view2131296328.setOnClickListener(null);
-    view2131296328 = null;
+    ((AdapterView<?>) view2131296336).setOnItemClickListener(null);
+    view2131296336 = null;
+    view2131296329.setOnClickListener(null);
+    view2131296329 = null;
     view2131296292.setOnClickListener(null);
     view2131296292 = null;
     view2131296293.setOnClickListener(null);
