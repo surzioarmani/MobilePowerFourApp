@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Tue Nov 26 18:26:53 KST 2019
+#Wed Dec 04 05:34:29 KST 2019
 0.baseType=DIRECTORY
-0.base=C\:\\Users\\sooa\\AndroidStudioProjects\\MobilePowerFourApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.base=C\:\\Users\\junkikim\\Desktop\\maxime\\MobilePowerFourApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex
 0.set=DEX
 count=1

@@ -42,9 +42,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         oneplayer = (Button)findViewById(R.id.oneplayer);
-
+        twoplayer = (Button)findViewById(R.id.twoplayer);
 
         findViewById(R.id.oneplayer).setOnClickListener(mClickListener);
+        findViewById(R.id.twoplayer).setOnClickListener(mClickListener);
     }
     public void OnClickHandler (View view)
     {
@@ -63,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
                     // 액티비티 실행
                     Intent intentSubActivity = new Intent(MainActivity.this, GameActivity.class);
                     startActivity(intentSubActivity);
+                    break;
+                case R.id.twoplayer:
+                    // 액티비티 실행
+                    Intent intentSubActivity1 = new Intent(MainActivity.this, GameActivity2.class);
+                    startActivity(intentSubActivity1);
                     break;
             }
         }

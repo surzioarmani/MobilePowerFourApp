@@ -3,6 +3,7 @@ package fr.nantes.opensource.power4.adapters;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.media.AsyncPlayer;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -32,6 +33,7 @@ public class GridAdapter extends BaseAdapter {
     private int[] mThumbs = new int[42];
     private String nextPlayer;
     private String color_piece_user;
+
 
     // Shared Preferences
     private SharedPreferences preferences;
@@ -183,6 +185,64 @@ public class GridAdapter extends BaseAdapter {
                             if(stillPlay()){
                                 nextPlayer = Constantes.COMPUTER;
                                 placeIAPiece();
+                            }
+                            else {
+                                increaseAnalytics(Constantes.PREF_EQUAL);
+                                showMessage(context.getString(R.string.equal_game));
+                            }
+                        } else {
+                            increaseAnalytics(Constantes.PREF_WINS);
+                            showMessage(context.getString(R.string.you_win));
+                        }
+                    } else {
+                        li--;
+                    }
+                } while (!b);
+            } else {
+                showMessage(context.getString(R.string.no_more_space));
+            }
+        }
+    }
+
+    public void placeGamerPiece2(int position, int who) {
+        if(gameEnd()) {
+            showMessage(context.getString(R.string.game_over));
+        } else {
+            final int column = position % 7;
+
+            if (mNumberOfPiecesByColumn[column] < 6) {
+                int li = 5;
+                boolean b = false;
+
+                do {
+                    if (mPiecesPlayed[column][li] == null) {
+                        b = true;
+
+                        mNumberOfPiecesByColumn[column] = mNumberOfPiecesByColumn[column] + 1;
+                        if(who == 0) {
+                            color_piece_user = Constantes.YELLOW_PIECE;
+                            mPiecesPlayed[column][li] = Constantes.PLAYER;
+                        }
+                        if(who == 1) {
+                            color_piece_user = Constantes.RED_PIECE;
+                            mPiecesPlayed[column][li] = Constantes.PLAYER2;
+                        }
+
+                        int positionAjouer = column + (li * 7);
+
+                        if (Constantes.YELLOW_PIECE.equals(color_piece_user)) {
+                            mThumbs[positionAjouer] = R.drawable.ic_orange;
+                        } else if (Constantes.RED_PIECE.equals(color_piece_user)) {
+                            mThumbs[positionAjouer] = R.drawable.ic_rouge;
+                        }
+
+
+                        notifyDataSetChanged();
+
+                        if (!mIA.playerWin(mPiecesPlayed, Constantes.PLAYER)) {
+                            if(stillPlay()){
+                                nextPlayer = Constantes.PLAYER2;
+
                             }
                             else {
                                 increaseAnalytics(Constantes.PREF_EQUAL);
