@@ -1,5 +1,6 @@
 package fr.nantes.opensource.power4.adapters;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -33,6 +34,10 @@ public class GridAdapter extends BaseAdapter {
     private int[] mThumbs = new int[42];
     private String nextPlayer;
     private String color_piece_user;
+    private long nStart = System.currentTimeMillis();;
+    private long nEnd;
+    private long val;
+    private long second;
 
 
     // Shared Preferences
@@ -192,7 +197,11 @@ public class GridAdapter extends BaseAdapter {
                             }
                         } else {
                             increaseAnalytics(Constantes.PREF_WINS);
-                            showMessage(context.getString(R.string.you_win));
+                            nEnd = System.currentTimeMillis();
+                            val = nEnd - nStart;
+                            second = val/1000;
+                            String s = Long.toString(val);
+                            showMessage(context.getString(R.string.you_win) + "  playtime: " + second + "second");
                         }
                     } else {
                         li--;
@@ -204,6 +213,7 @@ public class GridAdapter extends BaseAdapter {
         }
     }
 
+    @SuppressLint("StringFormatInvalid")
     public void placeGamerPiece2(int position, int who) {
         if(gameEnd()) {
             showMessage(context.getString(R.string.game_over));
@@ -239,7 +249,7 @@ public class GridAdapter extends BaseAdapter {
 
                         notifyDataSetChanged();
 
-                        if (!mIA.playerWin(mPiecesPlayed, Constantes.PLAYER)) {
+                        if (!mIA.playerWin(mPiecesPlayed, Constantes.PLAYER) && !mIA.playerWin(mPiecesPlayed, Constantes.PLAYER2)) {
                             if(stillPlay()){
                                 nextPlayer = Constantes.PLAYER2;
 
@@ -250,7 +260,11 @@ public class GridAdapter extends BaseAdapter {
                             }
                         } else {
                             increaseAnalytics(Constantes.PREF_WINS);
-                            showMessage(context.getString(R.string.you_win));
+                            nEnd = System.currentTimeMillis();
+                            val = nEnd - nStart;
+                            second = val/1000;
+                            String s = Long.toString(val);
+                            showMessage(context.getString(R.string.you_win) + "  playtime: " + second + "second");
                         }
                     } else {
                         li--;
