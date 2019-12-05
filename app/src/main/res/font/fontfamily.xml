@@ -6,5 +6,11 @@
         android:fontWeight="900"
         android:fontStyle="normal"/>
 
+    <font
+        android:font="@font/fontn"
+        android:fontWeight="900"
+        android:fontStyle="normal"/>
+
+
 
 </font-family>
